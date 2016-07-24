@@ -1,3 +1,28 @@
-h1 {
-  color: purple;
+body {
+	background-color: ;
+}
+
+.square {
+	background-color: #d3d3d3;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 85px;
+	color: #ffffff;
+	border-radius: 15px;
+	border: 5px solid #ffffff;
+	padding: 15px;
+}
+
+.x {
+	background-color: #89ABE3;
+}
+
+.o {
+	background-color: #F2DDDE;
+}
+
+.row  {
+	display: inline-block;
 }
