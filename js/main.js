@@ -73,7 +73,7 @@ function squareListener () {
 		// get computer's available move
 		var computersMove = getAvailableSquare();
 
-		// occupy opponent square
+		// occupy square
 		computersMove.occupied = 'o';
 		computersMove.className += ' o';
 		computersMove.innerHTML = o;
@@ -81,7 +81,6 @@ function squareListener () {
 			alert(evaluateGame());
 			clearBoard();
 		}
-		//console.log(evaluateGame());
 
 	// 2 player game 
 	} else { 
@@ -116,7 +115,7 @@ function getAvailableSquare() {
 
 
 // Resets all squares to blank, removes all 'occupied' states,
-// kills the click listener, resets moveCount to zerp
+// kills the click listener, resets moveCount to zero
 function clearBoard() {
 	for (var i = 0, len = squares.length; i < len; i++) {
 		squares[i].innerHTML = '&nbsp;';
