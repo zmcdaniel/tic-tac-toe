@@ -1,5 +1,7 @@
 body {
-	background-color: ;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	text-align: center;
 }
 
 .square {
@@ -25,4 +27,15 @@ body {
 
 .row  {
 	display: inline-block;
+}
+
+#clear {
+	padding: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+}
+
+#comment {
+	margin: 30px 0;
+	text-transform: uppercase;
 }
