@@ -69,8 +69,10 @@ function squareListener () {
 		moveCount++;
 		this.innerHTML = x;
 		this.className += ' x';
+		this.occupied = 'x';
 
 		// get computer's available move
+
 		var computersMove = getAvailableSquare();
 
 		// occupy square
